@@ -7,6 +7,16 @@ Install poetry with the command below:
 curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python
 ```
 
+Go to the folder `sum-list`:
+```sh
+cd ./dlg-test/sum-list/
+```
+
+Install dependencies:
+```sh
+poetry install
+```
+
 Activate the virtual environment:
 ``` sh
 poetry shell
